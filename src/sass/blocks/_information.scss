@@ -1,0 +1,99 @@
+.information {
+    height: 1620px;
+
+    .container {
+        position: relative;
+        &:after {
+            position: absolute;
+            content: 'V';
+            width: 301px;
+            height: 507px;
+            font-family: Playfair Display;
+            font-size: 400px;
+            color: #FFFFFF;
+            opacity: 0.08;
+            bottom: 414px;
+            left: -157px;
+        }
+        &:before {
+            position: absolute;
+            content: 'IV';
+            width: 301px;
+            height: 507px;
+            font-family: Playfair Display;
+            font-size: 400px;
+            color: #FFFFFF;
+            opacity: 0.08;
+            top: -132px;
+            right: -37px;
+        }
+    }
+
+    iframe {
+        position: absolute;
+        right: 265px;
+    }
+
+    &__map {
+        position: relative;
+        margin: 0 auto;
+        padding-top: 530px;
+
+        iframe {
+            position: absolute;
+            left: 1px;
+        }
+
+        &_header {
+            padding-bottom: 50px;
+        }
+    }
+
+    &__form {
+        width: 1115px;
+        height: 136px;
+        margin-top: 580px;
+
+        form {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-items: baseline;
+
+            button {
+                margin-top: 35px;
+            }
+
+            input {
+                border: none;
+                box-shadow: none;
+                font-size: 18px;
+                font-weight: 700;
+                color: black;
+                width: 255px;
+                height: 50px;
+                background: #FFFFFF;
+                opacity: 0.2;
+                outline: none;
+                padding-left: 10px;
+
+                // color: white;
+                &:focus {
+                    outline: none;
+                    box-shadow: none;
+                    border: none;
+                    // color: white;
+
+                }
+            }
+        }
+
+        .form_alert {
+            padding-top: 46px;
+            font-size: 13px;
+            width: 255px;
+            height: 50px;
+        }
+    }
+}

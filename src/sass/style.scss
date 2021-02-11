@@ -1,14 +1,44 @@
 @import 'libs/bootstrap-reboot.min';
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Playfair+Display:wght@700&family=Raleway&display=swap');
+
+@import 'base/mixins';
+@import 'base/variables';
+@import 'blocks/promo';
+@import 'blocks/testimonials';
+@import 'blocks/view';
+@import 'blocks/information';
+@import 'blocks/footer';
 
 * {
-    font-family: 'Poppins', sans-serif;
+    // font-family: 'Orbitron', sans-serif;
+    // font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-color: $dark;
+    color: white;
 }
 
 
 .container {
     width: 1140px;
     margin: 0 auto;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: all .4s;
+    &:hover {
+        color: gray;
+        text-decoration: none;
+    }
+}
+
+
+li {
+    list-style: none;
 }

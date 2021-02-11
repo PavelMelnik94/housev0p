@@ -1,0 +1,89 @@
+.testimonials {
+    padding-top: 120px;
+    height: 1226px;
+
+
+    &__header {
+        position: relative;
+        margin: 0 auto;
+        width: 794px;
+        height: 180px;
+        &:before {
+            position: absolute;
+            content: 'II';
+            width: 301px;
+            height: 507px;
+            font-family: Playfair Display;
+            font-size: 400px;
+            color: #FFFFFF;
+            opacity: 0.08;
+            top: -179px;
+            right: -273px;
+        }
+
+        
+        &_icons {
+            display: flex;
+            justify-content: space-between;
+            img {
+                max-height: 80px;
+                max-width: 80px;
+                margin-bottom: 40px;
+            }
+        }
+        &_descr {
+            padding-top: 40px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            // justify-content: space-between;
+        }
+    }
+    &__photo {
+        position: relative;
+        padding-top: 120px;
+        margin: 0 auto;
+        width: 1100px;
+        height: 806px;
+        &:before {
+            position: absolute;
+            content: 'III';
+            width: 301px;
+            height: 507px;
+            font-family: Playfair Display;
+            font-size: 400px;
+            color: #FFFFFF;
+            opacity: 0.08;
+            top: 5px;
+            left: -229px;
+        }
+        &_header {
+            text-align: left;
+        }
+        &_content {
+            
+            padding-top: 100px;
+            width: 1100px;
+            height: 806px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            img {
+                position: relative;
+            }
+            &_item{
+                margin-right: 5px;
+                margin-left: 5px;
+                position: relative;
+                .img__descr {
+                    position: absolute;
+                    bottom: 50px;
+                    left: 50px;
+                }
+            }
+        }
+
+    }
+
+}

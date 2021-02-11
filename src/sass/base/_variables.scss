@@ -1,0 +1,37 @@
+$dark: #242B33;
+$accent: #D4C17F;
+$white: #E5E5E5;
+
+.fz36 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    text-align: left;
+    font-weight: 700;
+    color: $accent;
+}
+
+
+.btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 255px;
+    background: #FFFFFF;
+    opacity: 0.2;
+    font-size: 14px;
+    line-height: 27px;
+    color: #BEBEBE;
+    border:none;
+    &-colored {
+        position: inherit;
+        background: #D4C17F;
+        opacity: 1;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 27px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}

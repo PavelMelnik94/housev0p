@@ -1,0 +1,64 @@
+.promo {
+    height: 840px;
+    padding-bottom: 55px;
+    background: url('../../img/promo-bg.jpg') center center / cover no-repeat;
+
+
+    &__logo {
+        padding-top: 15px;
+    
+
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        &_wrapper {
+        height: 66px;
+        width: 137px;
+        }
+        &_title {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 50px;
+            line-height: 54px;
+        }
+
+    }
+
+    &__menu {
+        width: 541px;
+        height: 16px;
+       &_items{ 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       }
+    }
+
+    &__header {
+        padding-top:225px;
+        text-align: center;
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 64px;
+        text-align: center;
+        color: $accent;
+    }
+
+    &__contacts {
+        img {
+            margin-right: 10px;
+        }
+        padding-top:225px;
+        width: 100%px;
+        height: 22px;
+        display: flex;
+        justify-content: space-around;
+        .adress{
+            display: flex;
+            flex-direction: row;
+            width: 300px;
+            height: 21px;
+        }
+    }
+}
